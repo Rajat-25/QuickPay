@@ -34,7 +34,7 @@ const getFormattedData=(data:UserType[],id:Types.ObjectId)=>{
       lastName,
       phoneNo,
     };
-  }).filter(item=>item.userId!=id);
+  });
 }
 
 const signUpBody = z.object({
